@@ -1,0 +1,34 @@
+baseURL = "https://1731846777.pages.dev/"
+languageCode = "zh-cn"
+title = "我的博客"
+theme = "PaperMod"
+defaultContentLanguage = "zh"
+hasCJKLanguage = true
+
+[params]
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto"
+  description = "我的个人博客"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[[menus.main]]
+  name = "首页"
+  url = "/"
+  weight = 1
+
+[[menus.main]]
+  name = "分类"
+  url = "/categories/"
+  weight = 2
+
+[[menus.main]]
+  name = "标签"
+  url = "/tags/"
+  weight = 3
